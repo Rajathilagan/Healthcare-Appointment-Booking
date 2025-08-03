@@ -1,12 +1,50 @@
-# React + Vite
+# 🏥 Doctor Appointment Booking System (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔐 Login / Sign Up (frontend only)
+- 👨‍⚕️ Browse doctors with profile info, availability, and fees
+- 📅 Book appointments with 30-minute slot selections
+- 🗂️ My Appointments page with cancel and pay options
+- 👤 Edit profile (name, phone, address, DOB, gender)
+- ✅ Toast notifications for success and error actions
+- 📱 Fully responsive UI (mobile, tablet, desktop)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧱 Tech Stack
+
+- **React** (with React Router)
+- **Tailwind CSS** for utility-first responsive styling
+- **localStorage** to simulate appointment persistence
+- **Vite** for fast development build
+
+---
+
+
+
+## 🗂️ Folder Overview
+
+
+frontend/
+├── public/ # Static assets
+├── src/
+│ ├── assets/ # Images, icons, static doctor data
+│ ├── components/ # Shared UI components (Navbar, Toast, etc.)
+│ ├── context/ # Global AppContext (doctors, currency, etc.)
+│ ├── pages/ # Main pages (Login, Profile, Appointment, etc.)
+│ ├── App.jsx # Main routing component
+│ └── main.jsx # React root
+├── index.html
+├── tailwind.config.js
+├── vite.config.js
+├── package.json
+└── README.md
+
+yaml
+Copy
+Edit
+
+
